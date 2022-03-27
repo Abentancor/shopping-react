@@ -9,7 +9,7 @@ export class Products extends Component {
 render(){
     const {products} = this.context
     return (
-      <div className='grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 '>
+      <div className='grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
           {
               products.map(product =>(
                   <div className="w-64 rounded-xl m-4 bg-gradient-to-t from-slate-900 via-slate-600  to-slate-20" key={product._id}>
